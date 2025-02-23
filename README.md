@@ -3,9 +3,8 @@
 A creative coding project built with Rust and Nannou that generates an animated grid with customizable color palettes.
 
 <div align="center">
-    <video width="600" controls>
-    <source src="result.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+    <video src="result.mp4" width="300" controls>
+        Your browser does not support the video tag.
     </video>
 </div>
 

@@ -88,7 +88,7 @@ impl Model {
             .capture_frame(format!("output/frame-{}.png", app.elapsed_frames()));
 
         if app.elapsed_frames() == 1000 {
-            app.quit();
+            std::process::exit(0);
         }
     }
 }
